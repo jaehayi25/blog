@@ -3,7 +3,7 @@ import firstImage from './images/1.jpg';
 
 export const innovationTiming: BlogPost = {
   id: 1,
-  title: "A Note on How Innnovation Happens—Innovation is Timing",
+  title: "A Note on How Innovation Happens—Innovation is Timing",
   date: "2025-01-12",
   author: "Jaeha Yi",
   content: [
@@ -27,18 +27,18 @@ export const innovationTiming: BlogPost = {
     },
     {
       type: "quote",
-      text: `there could be a major breakthrough in what the military called "responsive space."... Worden wanted the ability to deploy space assets with the same speed and precisoin as other tools in the United States' military aresenal... it would be game-changing to launch a satellite at the same time [as deploying the army] for support.`,
+      text: `There could be a major breakthrough in what the military called "responsive space."... Worden wanted the ability to deploy space assets with the same speed and precision as other tools in the United States' military arsenal... it would be game-changing to launch a satellite at the same time [as deploying the army] for support.`,
       author: "When the Heavens Went on Sale (37)"
     },
     {
       type: "paragraph",
-      text: `It was a simple idea. By no means did it require the extreme creativity and genius. Yet back then, the idea of responsive space was hard to imagine, test, and design when, in the first place, the latest rocket technology didn't support a feasable solution! 
-      Only when the rockets became sufficiently powerful, precise, and cheap, did people start thinking about its potential applications.`
+      text: `It was a simple idea. By no means did it require extreme creativity and genius. Yet back then, the idea of responsive space was hard to imagine, test, and design when, in the first place, the latest rocket technology didn't support a feasible solution! 
+      Only when the rockets became sufficiently powerful, precise, and cheap, did people start thinking about their potential applications.`
     },
     {
       type: "paragraph",
       text: `So where does this all lead? I think, deep down in our hearts, all of us want to be innovators. 
-      How many times have we tried to be the next big success story and failed because we bang our heads against the wall on a problem currently unsolvable? 
+      How often have we tried to be the next big success story and failed because we bang our heads against the wall on a problem currently unsolvable? 
       Innovation is timing, and finding the right moment to strike requires patience and preparation.
       We should all take a moment to step back, prepare ourselves (mentally, physically, and technologically), and take a deep breath... before heading down the path that awaits us at the right time.`
     },
