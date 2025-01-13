@@ -32,8 +32,8 @@ export const innovationTiming: BlogPost = {
     },
     {
       type: "paragraph",
-      text: `It's a simple idea. By no means does it require the extreme creativity and genius. Yet back then, the idea of responsive space was hard to imagine, test, and design when, in the first place, current rocket technology didn't support a feasable solution! 
-      Only when the rockets become sufficiently powerful, precise, and cheap, do people start thinking about its potential applications.`
+      text: `It was a simple idea. By no means did it require the extreme creativity and genius. Yet back then, the idea of responsive space was hard to imagine, test, and design when, in the first place, the latest rocket technology didn't support a feasable solution! 
+      Only when the rockets became sufficiently powerful, precise, and cheap, did people start thinking about its potential applications.`
     },
     {
       type: "paragraph",
