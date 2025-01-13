@@ -12,9 +12,11 @@ export const BlogContent: React.FC<BlogContentProps> = ({ content }) => {
         switch (block.type) {
           case 'paragraph':
             return (
-              <p key={index} className="mb-6 text-gray-700 leading-relaxed">
-                {block.text}
-              </p>
+              <p 
+                key={index} 
+                className="mb-6 text-gray-700 leading-relaxed"
+                dangerouslySetInnerHTML={{ __html: block.text }}
+              />
             );
           case 'quote':
             return (

@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { BlogContent } from './BlogContent';
 import { blogPosts, getAllTags } from '../content/blog';
-import { BlogPost } from '../types/blog';
 
 const BlogPage: React.FC = () => {
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
@@ -17,8 +16,8 @@ const BlogPage: React.FC = () => {
       {/* Header */}
       <header className="bg-white shadow-sm w-full">
         <div className="max-w-7xl mx-auto py-8 px-6">
-          <h1 className="text-4xl font-bold text-purple-800">My Blog</h1>
-          <p className="mt-2 text-amber-700">Thoughts, ideas, and discoveries</p>
+          <h1 className="text-4xl font-bold text-purple-800">Jaeha's Blog</h1>
+          <p className="mt-2 text-amber-700">Notes of inspiration and design</p>
         </div>
       </header>
 
@@ -86,7 +85,7 @@ const BlogPage: React.FC = () => {
       {/* Footer */}
       <footer className="bg-white border-t border-purple-100">
         <div className="max-w-4xl mx-auto py-8 px-4 text-center text-gray-600">
-          <p>© 2025 My Blog. All rights reserved.</p>
+          <p>© 2025 Jaeha's Blog. All rights reserved.</p>
         </div>
       </footer>
     </div>
