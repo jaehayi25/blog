@@ -1,7 +1,7 @@
 import { BlogPost } from '../../types/blog';
 import firstImage from './images/1.jpg';
 
-export const sustainableArchitecture: BlogPost = {
+export const innovationTiming: BlogPost = {
   id: 1,
   title: "A Note on How Innnovation Happens—Innovation is Timing",
   date: "2025-01-12",
@@ -32,7 +32,7 @@ export const sustainableArchitecture: BlogPost = {
     },
     {
       type: "paragraph",
-      text: `It's a simple idea. By no means does it require the extreme creativity and genius. Yet the idea of responsive space is hard to imagine, test, and design when, in the first place, current rocket technology doesn't support a feasable solution! 
+      text: `It's a simple idea. By no means does it require the extreme creativity and genius. Yet back then, the idea of responsive space was hard to imagine, test, and design when, in the first place, current rocket technology didn't support a feasable solution! 
       Only when the rockets become sufficiently powerful, precise, and cheap, do people start thinking about its potential applications.`
     },
     {

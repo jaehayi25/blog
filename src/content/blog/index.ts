@@ -1,9 +1,9 @@
-import { sustainableArchitecture } from './sustainable-architecture';
+import { innovationTiming } from './innovation-timing';
 import { BlogPost } from '../../types/blog';
 
 // Export all blog posts
 export const blogPosts: BlogPost[] = [
-  sustainableArchitecture,
+  innovationTiming,
 ];
 
 // Helper functions for blog posts
