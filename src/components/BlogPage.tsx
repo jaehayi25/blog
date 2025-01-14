@@ -61,7 +61,7 @@ const BlogPage: React.FC = () => {
                 <div className="flex items-center gap-4 text-sm text-gray-600">
                   <span>{post.author}</span>
                   <span>•</span>
-                  <span>{new Date(post.date).toLocaleDateString()}</span>
+                  <span>{new Date(post.date + 'T00:00:00').toLocaleDateString()}</span>
                 </div>
               </CardHeader>
               <CardContent>
