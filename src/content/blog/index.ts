@@ -1,9 +1,10 @@
 import { innovationTiming } from './innovation-timing';
+import { ames } from './ames';
 import { BlogPost } from '../../types/blog';
 
 // Export all blog posts
 export const blogPosts: BlogPost[] = [
-  innovationTiming,
+  ames, innovationTiming, 
 ];
 
 // Helper functions for blog posts
